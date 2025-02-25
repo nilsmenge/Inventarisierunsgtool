@@ -13,6 +13,16 @@
 <body>
     
     <div class="container" id="container">
+        <div class="form-container registrieren">
+            <form>
+                <h1>Account erstellen</h1>
+                <input type="vname" placeholder="Vorname" class="name">
+                <input type="name" placeholder="Nachname" class="name">
+                <input type="email" placeholder="E-Mail">
+                <input type="password" placeholder="Password">
+                <button>Registrieren</button>
+            </form>
+        </div>
         <div class="form-container anmelden">
             <form>
                 <h1>Anmelden</h1>
@@ -25,9 +35,14 @@
         <div class="toggle-container">
             <div class="toggle">
                 <div class="toggle-panel toggle-left">
-                    <h1>Willkommen zurück</h1>
-                    <p>Gebe deine Anmeldedaten an</p>
-                    <button class="hidden" id="login"Anmelden>Anmelden</button>
+                    <h1>Willkommen zurück!</h1>
+                    <p>Geben Sie Ihre Anmeldeinformationen ein</p>
+                    <button class="hidden" id="anmelden">Anmelden</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hallo!</h1>
+                    <p>Erstellen Sie sich einen Account</p>
+                    <button class="hidden" id="registrieren">Registrieren</button>
                 </div>
             </div>
         </div>
